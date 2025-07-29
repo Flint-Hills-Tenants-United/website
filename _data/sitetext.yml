@@ -22,73 +22,18 @@ en: &DEFAULT_EN
     section: portfolio
     closebutton: "Close"
 
-  timeline:
-    title: "Academic and Professional Timeline"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Rotary Youth Exchange Program"
-        year: "2002-2003"
-        desc: "I spent a year in Chimay and Couvin, Belgium as a high school exchange student, living with three different host families."
-        image: assets/img/timeline/1.png
-        alt:
-      - title: "Columubs State Community College"
-        year: "2003-2005"
-        desc: "Took courses towards an associate's while working full time."
-        image: assets/img/timeline/2.png
-        alt:
-      - title: "The Ohio State University"
-        year: "2005-2008"
-        desc: "B.A. in Linguistics, B.A. in French, Resident Advisor, Resident Manager, Underlings (Undergraduate Linguistics Club) Vice-president "
-        image: assets/img/timeline/3.png
-        alt: image alt text
-      - title: "Teaching Assistant Program in France"
-        year: "2008-2009"
-        desc: "Taught elementary ESL in Dax, France."
-        image: assets/img/timeline/4.png
-        alt:
-      - title: "North American Language and Culture Assistants Program"
-        year: "2009-2010"
-        desc: "Taught elementary and high school ESL in Campos and s'Alqueria Blanca, Mallorca, Spain."
-        image: assets/img/timeline/5.png
-        alt:
-      - title: "University of Utah"
-        year: "2010-2015"
-        desc: "M.A. in Linguistics, Project Manager - Shohoni Language Project, Instructor - Department of Linguistics"
-        image: assets/img/timeline/6.png
-        alt:
-      - title: "Bowling Green State University"
-        year: "2014-2016"
-        desc: "M.A. in College Student Personnel, Graduate Coordinator - Ethnic Student Center, Office of Multicultural Affairs"
-        image: assets/img/timeline/7.png
-        alt:
-      - title: "Cornell University"
-        year: "2016 - 2023"
-        desc: "Director, Language House; Assistant Director of Student Life and Academic Programming, Cornell in Washingong; Director, Office of Diversity and Inclusion, SC Johnson Graduate School of Management"
-        image: assets/img/timeline/8.png
-        alt:
-      - title: "Kansas State University"
-        year: "2024 - Present"
-        desc: "Investigator, Office of Civil Rights & Title IX; PhD Student in Adult Learning and Leadership"
-        image: assets/img/timeline/9.png
-        alt:
+  
    
 
 
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://bsky.app/profile/dialecticalpraxis.com
+      - url: https://bsky.app/profile/m
         icon: "fab fa-bluesky"
-      - url: https://instagram.com/dialecticalpraxis
+      - url: https://instagram.com/
         icon: "fab fa-instagram"
-      - url: https://www.tiktok.com/@dialecticalpraxis
-        icon: "fab fa-tiktok"
-      - url: https://scholar.google.com/citations?hl=en&user=K4fEPEIAAAAJ
-        icon: "fab fa-google-scholar"
-      - url: https://github.com/dialecticalpraxis
-        icon: "fab fa-github"
+
    
         
 
