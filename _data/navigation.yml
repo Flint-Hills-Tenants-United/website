@@ -12,11 +12,11 @@
 en: &DEFAULT_EN
   nav:
     - title: "About"
-      section: derron
-    - title: "Academia"
+      section: about
+    - title: "Resources"
       section: portfolio
-    - title: "Timeline"
-      section: timeline
+    - title: "Contact"
+      section: contact
 
 
 en-001: #English (World)
