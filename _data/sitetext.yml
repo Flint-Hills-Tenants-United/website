@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Flint Hills Tenants United
-    #text: Flint Hills Tenants United
+    title: Flint Hills 
+    text: Tenants United
     #button: Become a Member
     #buttonlink: "#contact"
 
