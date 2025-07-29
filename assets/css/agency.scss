@@ -17,7 +17,7 @@
 {% endif %}
 
 // Custom colors
-$primary: {{ site.data.style.highlight | default: "#EC1F27" }} !default;
+$primary: {{ site.data.style.highlight | default: "#33596f" }} !default;
 $white: {{ site.data.style.white | default: "#fff" }} !default;
 $black: {{ site.data.style.black | default: "#000" }} !default;
 
@@ -44,7 +44,7 @@ $header-image: "{{ site.data.style.header-image }}";
 
 #derron ul.social-buttons {
   li a {
-    background-color: $gray-900;
+    background-color: #33596f;
     color: white;
 
     &:hover,
