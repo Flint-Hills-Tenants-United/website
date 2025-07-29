@@ -17,8 +17,8 @@ en: &DEFAULT_EN
     #buttonlink: "#contact"
 
   portfolio:
-    title: "Academia"
-    text: "Learn more about my academic philosophies toward education, my research, and my organizational structure towards obtaining my PhD."
+    title: "Resources"
+    text: ""
     section: portfolio
     closebutton: "Close"
 
