@@ -42,16 +42,3 @@ $header-image: "{{ site.data.style.header-image }}";
 @import "layout/contact.scss";
 @import "layout/footer.scss";
 
-#derron ul.social-buttons {
-  li a {
-    background-color: #33596f;
-    color: white;
-
-    &:hover,
-    &:focus,
-    &:active {
-      background-color: white;
-      color: $primary;
-    }
-  }
-}
