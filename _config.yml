@@ -12,7 +12,7 @@ description : "Professional website for Derron Borders."
 author      : "Derron Borders"
 
 logo:
-  path  : "/assets/img/dplogo.png"
+  path  : "/assets/img/fhtulogo.png"
   height: 60
 
 locale: "en-US"
