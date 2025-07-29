@@ -1,21 +1,18 @@
-<!-- _includes/nav.html -->
+<!-- Navigation -->
 <nav
-  class="navbar navbar-expand-lg navbar-dark fixed-top
-        {% if page.section == 'resources' or page.collection == 'resources' %}
-          navbar-shrink
-        {% endif %}"
+  class="navbar navbar-expand-lg navbar-dark fixed-top"
   id="mainNav"
-  style="background-color:#212529; z-index:1050;"   <!-- higher z-index so dropdown is clickable -->
+  style="background-color: #509c87"
 >
   <div class="container">
     <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/#">
       {%- if site.logo -%}
-        <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}" />
-      {%- else -%}
-        {{ site.title }}
-      {%- endif -%}
+      <img
+        height="{{ site.logo.height | default: 52 }}"
+        src="{{ site.logo.path }}"
+      />
+      {%- else -%} {{ site.title }} {%- endif -%}
     </a>
-
     <button
       class="navbar-toggler navbar-toggler-right"
       type="button"
@@ -25,91 +22,49 @@
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      Menu <i class="fas fa-bars"></i>
+      Menu<i class="fas fa-bars"></i>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav text-uppercase ml-auto">
-
-        {%- if site.locale and site.locale != "" and site.locale != nil -%}
-          {%- assign nav_items = site.data.navigation[site.locale].nav -%}
-        {%- else -%}
-          {%- assign nav_items = site.data.navigation.nav -%}
-        {%- endif -%}
-
-        {%- for link in nav_items -%}
-
+      {% if site.locale and site.locale != "" and site.locale != nil %}
+        {%- for link in site.data.navigation[site.locale].nav -%}
+        <li class="nav-item">
           {%- if link.url -%}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title }}</a>
-            </li>
-
-          {%- elsif link.section == "resources" -%}
-            {%- if page.section == "resources" or page.collection == "resources" -%}
-              <!-- Full dropdown with fixed order -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button"
-                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  {{ link.title }}
-                </a>
-               <div class="dropdown-menu" aria-labelledby="resourcesDropdown">
-
-  <!-- Chapter Documentation -->
-  <a class="dropdown-item font-weight-bold" href="{{ '/resources/chapter-documentation/' | relative_url }}">
-    Chapter Documentation
-  </a>
-  <a class="dropdown-item pl-4" href="{{ '/resources/chapter-documentation/governing-documents/' | relative_url }}">
-    Governing Documents
-  </a>
-
-  <a class="dropdown-item pl-4" href="{{ '/resources/chapter-documentation/historical-documents/' | relative_url }}">
-    Historical Documents
-  </a>
-  <div class="dropdown-divider"></div>
-
-  <!-- Committees -->
-  <a class="dropdown-item font-weight-bold" href="{{ '/resources/committees/' | relative_url }}">
-    Committees
-  </a>
-  <!-- committee sub-pages here with pl-4 -->
-  <div class="dropdown-divider"></div>
-
-  <!-- Educational Resources -->
-  <a class="dropdown-item font-weight-bold" href="{{ '/resources/educational-resources/' | relative_url }}">
-    Educational Resources
-  </a>
-  <!-- educational sub-pages here -->
-  <div class="dropdown-divider"></div>
-
-  <!-- Working Groups -->
-  <a class="dropdown-item font-weight-bold" href="{{ '/resources/working-groups/' | relative_url }}">
-    Working Groups
-  </a>
-  <!-- working-group sub-pages here -->
-</div>
-
-              </li>
-            {%- else -%}
-              <!-- Just scroll down to the resources section on home page -->
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/#resources">{{ link.title }}</a>
-              </li>
-            {%- endif -%}
-
+          <a class="nav-link js-scroll-trigger" href="{{ link.url }}"
+            >{{ link.title }}</a
+          >
           {%- elsif link.section -%}
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/#{{ link.section }}">{{ link.title }}</a>
-            </li>
-
+          <a
+            class="nav-link js-scroll-trigger"
+            href="{{ site.baseurl }}/#{{ link.section }}"
+            >{{ link.title }}</a
+          >
           {%- else -%}
-            <li class="nav-item">
-              <a class="nav-link" href="#">{{ link.title }}</a>
-            </li>
+          <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
           {%- endif -%}
-
+        </li>
         {%- endfor -%}
-
+      {% else %}
+        {%- for link in site.data.navigation.nav -%}
+        <li class="nav-item">
+          {%- if link.url -%}
+          <a class="nav-link js-scroll-trigger" href="{{ link.url }}"
+            >{{ link.title }}</a
+          >
+          {%- elsif link.section -%}
+          <a
+            class="nav-link js-scroll-trigger"
+            href="{{ site.baseurl }}/#{{ link.section }}"
+            >{{ link.title }}</a
+          >
+          {%- else -%}
+          <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
+          {%- endif -%}
+        </li>
+        {%- endfor -%}
+      {% endif %}
       </ul>
     </div>
   </div>
 </nav>
+<!-- End Navigation -->
