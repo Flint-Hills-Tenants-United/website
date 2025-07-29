@@ -3,12 +3,12 @@
 # ----------------------------------------
 remote_theme: raviriley/agency-jekyll-theme
 
-url       : "https://www.dialecticalpraxis.com"
+url       : "https://www.flinthillstenantsunited.org"
 baseurl   : ""                 # leave empty for root‐domain site
 
-title       : "dialectical praxis"
+title       : "Flint Hills Tenants United"
 #email       : ""
-description : "Professional website for Derron Borders."
+description : "Official website for Flint HIlls Tenants United"
 author      : "Derron Borders"
 
 logo:
