@@ -24,7 +24,7 @@ en: &DEFAULT_EN
     
   contact:
     title: "Contact Us"
-    text: "Email us at info@flinthillstenantsunited.org or fill our the form below."
+    text: "Fill out the form below to get in contact with us!"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
