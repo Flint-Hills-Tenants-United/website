@@ -22,7 +22,9 @@ en: &DEFAULT_EN
     section: portfolio
     closebutton: "Close"
 
-  
+  contact:
+    title: "Contact Us"
+    section: contact  
    
 
 
