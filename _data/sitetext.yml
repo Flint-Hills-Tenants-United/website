@@ -28,7 +28,7 @@ en: &DEFAULT_EN
 
   footer:
     legal: "Privacy Policy"
-   social:
+    social:
       - url: https://www.x.com/RT_MHK
         icon: "fab fa-x"
       - url: https://facebook.com/RentersTogetherMHK
