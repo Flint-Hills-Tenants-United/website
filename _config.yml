@@ -39,3 +39,7 @@ markdown: kramdown
 # ----------------------------------------
 plugins:
   - jekyll-remote-theme
+
+
+
+formspree_form_path: "https://formspree.io/f/xrbllpoy"
