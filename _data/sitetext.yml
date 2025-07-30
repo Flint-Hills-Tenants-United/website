@@ -21,11 +21,20 @@ en: &DEFAULT_EN
     text: ""
     section: portfolio
     closebutton: "Close"
-
+    
   contact:
     title: "Contact Us"
-    section: contact  
-   
+    text: "Email us at info@flinthillstenantsunited.org or fill our the form below."
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
+
 
 
   footer:
