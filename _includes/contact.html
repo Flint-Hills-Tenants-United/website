@@ -1,7 +1,6 @@
 <!-- _includes/contact.html -->
 {% comment %}
-  Contact Section: shows four buttons in a 2×2 grid,
-  each opening its respective modal.
+ 
 {% endcomment %}
 
 {% if site.locale and site.locale != "" and site.locale != nil %}
@@ -15,58 +14,9 @@
         </h2>
       </div>
     </div>
-    <!-- Buttons grid -->
-    <div class="row justify-content-center align-items-start">
-      <div class="col-sm-12 col-md-6 text-center mb-4">
-        <button class="btn btn-primary btn-xl text-uppercase w-100" data-toggle="modal" data-target="#modal-contact">
-          Contact Us
-        </button>
-      </div>
-      <div class="col-sm-12 col-md-6 text-center mb-4">
-        <button class="btn btn-primary btn-xl text-uppercase w-100" data-toggle="modal" data-target="#modal-mailing">
-          Join Mailing List
-        </button>
-      </div>
-      <div class="col-sm-12 col-md-6 text-center mb-4">
-        <button class="btn btn-primary btn-xl text-uppercase w-100" data-toggle="modal" data-target="#modal-discord">
-          Join Our Discord
-        </button>
-      </div>
-      <div class="col-sm-12 col-md-6 text-center mb-4">
-        <button class="btn btn-primary btn-xl text-uppercase w-100" data-toggle="modal" data-target="#modal-membership">
-          Become a Member
-        </button>
-      </div>
-    </div>
+   
   </div>
 </section>
-{% else %}
-<section class="page-section" id="{{ site.data.sitetext.contact.section | default: 'contact' }}">
-  <div class="container">
-    <!-- Buttons grid (no heading in this fallback) -->
-    <div class="row justify-content-center align-items-start">
-      <div class="col-sm-12 col-md-6 text-center mb-4">
-        <button class="btn btn-primary btn-xl text-uppercase w-100" data-toggle="modal" data-target="#modal-contact">
-          Contact Us
-        </button>
-      </div>
-      <div class="col-sm-12 col-md-6 text-center mb-4">
-        <button class="btn btn-primary btn-xl text-uppercase w-100" data-toggle="modal" data-target="#modal-mailing">
-          Join Mailing List
-        </button>
-      </div>
-      <div class="col-sm-12 col-md-6 text-center mb-4">
-        <button class="btn btn-primary btn-xl text-uppercase w-100" data-toggle="modal" data-target="#modal-discord">
-          Join Our Discord
-        </button>
-      </div>
-      <div class="col-sm-12 col-md-6 text-center mb-4">
-        <button class="btn btn-primary btn-xl text-uppercase w-100" data-toggle="modal" data-target="#modal-membership">
-          Become a Member
-        </button>
-      </div>
-    </div>
-  </div>
-</section>
+
 {% endif %}
 <!-- End Contact -->
