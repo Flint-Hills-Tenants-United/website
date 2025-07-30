@@ -12,7 +12,25 @@
         <h2 class="section-heading text-uppercase">
           {{ site.data.sitetext[site.locale].contact.title | markdownify | default: 'Contact Us' }} 
         </h2>
-       <p>info@flinthillstenantsunited.org</p>
+       <form
+  action="https://formspree.io/f/xrbllpoy"
+  method="POST"
+>
+<label>
+    Your name:
+    <input type="name" name="name">
+  </label>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
       </div>
     </div>
    
