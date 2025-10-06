@@ -11,6 +11,6 @@ background: grey
 </div>
 
 <br>
-<p></p>Hello and welcome! We are Flint Hills Tenants United and we are helping your neighbors organize toward holding Geary Estates Apartments accountable. We are not a legal service or professional organization, but are fellow renters who live in and around the Flint Hills who believe that everyone deserves safe, secure, and affordable housing! We hope you will join your neighbors in organizing a Geary Estates Tenant Association to collectively demand better of MRD Apartments. To do so, please read the Frequently Asked Questions below, and if you would like to learn more and/or join, fill out the form.</p>
+<p>Hello and welcome! We are Flint Hills Tenants United and we are helping your neighbors organize toward holding Geary Estates Apartments accountable. We are not a legal service or professional organization, but are fellow renters who live in and around the Flint Hills who believe that everyone deserves safe, secure, and affordable housing! We hope you will join your neighbors in organizing a Geary Estates Tenant Association to collectively demand better of MRD Apartments. To do so, please read the Frequently Asked Questions below, and if you would like to learn more and/or join, fill out the form.</p>
 
 <h3>FAQ</h3>
