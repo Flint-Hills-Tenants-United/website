@@ -40,14 +40,11 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://www.x.com/RT_MHK
-        icon: "fab fa-x"
-      - url: https://facebook.com/RentersTogetherMHK
+      - url: https://www.facebook.com/FlintHillsTenantsUnited/
         icon: "fab fa-facebook-f"
-      - url: https://instagram.com/renterstogether
+      - url: https://www.instagram.com/flinthillstenantsunited/
         icon: "fab fa-instagram"
-      - url: https://www.youtube.com/channel/UCGIjuMh3NzLdjWywC0tn_GQ
-        icon: "fab fa-youtube"
+
     
 
    
