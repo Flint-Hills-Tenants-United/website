@@ -73,7 +73,7 @@ https://www.uppervalleytenants.org/faqs
 https://www.ithacatu.org/faq
 [28] Tenant Union Federation |Tenant Union Federation
 https://tenantfederation.org/
-<img width="468" height="640" alt="image" src="https://github.com/user-attachments/assets/5bd41c70-151e-42a0-bc1a-1e02e4431ded" />
+
 
 
 
