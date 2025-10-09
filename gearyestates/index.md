@@ -182,9 +182,9 @@ background: grey
     Their mission is to build solidarity among tenants and ensure <strong>safe, affordable, equitable housing</strong> for all. 
   </p>
   <p>
-    They help residents form tenant associations by providing legal info, organizing support, and connections to resources like 
+    They help residents form tenant associations by providing organizing support and connections to resources like 
     <a href="https://www.kansaslegalservices.org/" target="_blank">Kansas Legal Services</a>. 
-    FHTU isn’t in charge — <strong>we are</strong>. They advise and assist while tenants lead their own associations. 
+    FHTU isn’t in charge — <strong>Geary Estate tenants are</strong>. FHTU advise and assist while tenants lead their own associations. 
     FHTU is also connected to the 
     <a href="https://tenantunionfederation.org/" target="_blank">Tenant Union Federation</a>, 
     a national network helping renters defend their rights.
