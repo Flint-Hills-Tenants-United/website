@@ -13,68 +13,209 @@ background: grey
 <br>
 <p>Hello and welcome! We are Flint Hills Tenants United and we are helping your neighbors organize toward holding Geary Estates Apartments accountable. We are not a legal service or professional organization, but are fellow renters who live in and around the Flint Hills who believe that everyone deserves safe, secure, and affordable housing! We hope you will join your neighbors in organizing a Geary Estates Tenant Association to collectively demand better of MRD Apartments. To do so, please read the Frequently Asked Questions below, and if you would like to learn more and/or join, fill out the form.</p>
 
-<h3>FAQ</h3>
-<details><summary>What is a tenant association?</summary> A tenant association is simply a group of renters in the same property who band together to address common concerns and advocate for better living conditions[1]. In other words, it’s neighbors uniting so we have strength in numbers to achieve things we couldn’t achieve alone[2]. By forming an association, tenants can share information, support each other, and present a unified voice when dealing with the landlord or management. This might involve collectively requesting timely repairs, ensuring fair policies in our leases, or addressing safety and maintenance issues as a group rather than struggling individually. The goal is to work together for fair, safe, and livable homes for everyone in the complex.</details>
-<details><summary>Why do we need a tenant association at Geary Estates?</summary> Residents at Geary Estates have faced recurring problems that haven’t been resolved through individual complaints. Many of us have experienced ignored maintenance requests and poor upkeep – one tenant review even noted that management “ignore & delete maintenance requests” and warned that although the units start out nice, “due to lack of upkeep they will get worse”[3]. When tenants go to the landlord one by one, it’s easy for management to delay or dismiss our concerns. But if we join together, we can hold the landlord accountable and demand that these issues are addressed promptly and properly.
-Other tenant groups have done this in similar situations. For example, tenants in one apartment complex organized because their landlord was raising rents while letting maintenance slip, and coming together as a union finally pushed the landlord to fix problems[4][5]. Closer to home, Flint Hills Tenants United has seen that problems landlords ignore individually are often addressed when tenants organize together[6][7]. In short, a tenant association at Geary Estates will give us the collective power to demand safe, well-maintained homes and fair treatment for everyone here.</details>
-<details><summary>Is it legal to form a tenant association? Are we allowed to do this?</summary> Yes, absolutely. It is your right to organize with your fellow tenants. In fact, Kansas law explicitly protects tenants who form or join an association. The Kansas Residential Landlord and Tenant Act makes it illegal for a landlord to retaliate against you just because you join a tenants’ union or similar organization[8]. This means the landlord cannot punish you for organizing – they can’t suddenly raise your rent, cut off services, or try to evict you simply for participating in a tenant association[9][10]. Forming an association of tenants is fully legal and protected. Even at the federal level, tenants (especially in subsidized housing) have recognized rights to organize.
-We are simply exercising our rights under the law to meet, discuss issues, and advocate for ourselves. There is no clause in your lease that can forbid you from talking to your neighbors or banding together to address concerns – those kinds of “gag” rules would not be enforceable. So yes, we are allowed to do this, and having an association is a lawful way to improve our living conditions.</details>
-<details><summary>Won’t the landlord retaliate against us for joining this group?</summary> It’s natural to worry about retaliation, but the law is on our side here. By Kansas law, a landlord may not retaliate against tenants for organizing or complaining in good faith[9]. That means they can’t lawfully evict you, jack up your rent, or cut your services just because you got together with neighbors to assert your rights. If they tried, you would have a legal defense – retaliation is prohibited, and any such action could be challenged and thrown out in court[10]. In fact, under K.S.A. 58-2572, any eviction or rent increase that comes right after we organize would be presumed to be retaliatory and not in “good faith.”
-Of course, we know some bad landlords might still attempt sneaky forms of retaliation. But that’s exactly why having a strong association helps. When over half the tenants are united, it’s much harder to single anyone out. The landlord can’t afford to lose a large portion of their renters at once, and any pattern of mistreatment would be very obvious. We’ll also be watching out for each other – if management tries to unfairly target someone, the association (with support from Flint Hills Tenants United) can help you fight back using legal channels. Remember, retaliation isn’t just wrong – it’s illegal. And in many cases where tenants have organized, landlords have backed off rather than risk legal trouble for retaliating.
-In short, while we can’t promise a landlord will never behave poorly, we can say you’re protected by law and by the strength of your neighbors standing with you. We will be vigilant and address any hint of retaliation immediately. Often, just knowing the tenants are educated about their rights deters the landlord from trying anything rash. We’re in this together, and we won’t let anyone be picked off or punished for doing the right thing.</details>
-<details><summary>Why are we aiming to get over 50% of tenants on board?</summary> Having a majority of tenants united in the association gives us real power and protection. When more than 50% of the residents are members, we can legitimately say we represent the voice of the community. The landlord then knows that if they ignore or dismiss us, they’re ignoring the majority of their tenants – which is not good business for them. It also means any action we take or any demand we make has the backing of most families here, which adds weight and credibility.
-There’s also safety in numbers: if only a handful of tenants join, those few could fear being isolated. But if half or more of us are together, no one can be singled out without the landlord essentially picking a fight with everyone. It creates a kind of “shield” for individual tenants. Even public officials note how important this is – as one city leader put it, advocating as a group is “so much more powerful than advocating as individuals”[11]. A united front means the landlord has to listen.
-Reaching the 50% threshold is just a starting goal – of course, 100% participation would be ideal! The more tenants who join, the stronger our voice. But we focus on 50% because that clearly proves a majority are fed up and want change. In many successful tenant unions, getting a majority of residents involved was the turning point that forced landlords to come to the table. So by aiming for over half, we’re aiming to show undeniable strength and unity. If we can surpass that, even better. Every additional member past 50% just increases our leverage to win better conditions for all of us.</details>
-<details><summary>What kinds of issues can a tenant association actually address?</summary> Anything that affects our quality of life as tenants can be addressed collectively. Common issues include: - Maintenance and repairs: Ensuring the landlord makes timely repairs to apartments and common areas. For example, fixing heating/AC problems, plumbing issues, leaks, broken appliances, pest infestations, etc. Instead of individual work orders getting ignored, the association can demand a plan to resolve all outstanding maintenance problems. - Health and safety: Addressing hazards like mold, electrical problems, lack of security, or unsafe property conditions. We can push management to meet all health and safety codes (and involve local code enforcement if needed). - Communication and respect: Insisting that the property managers respond to tenant concerns professionally and promptly. No more unanswered calls or deleted requests. We can set expectations for how management should communicate (e.g. notice before entering units, transparency about policies, etc.). - Fair rent and fees: While rent prices are ultimately set by the market and leases, a tenant association can negotiate to slow down excessive rent increases or to eliminate unjustified fees. We can also advocate for things like keeping utilities or other services included (so they don’t start charging extra for what used to be free) and generally push for affordable housing terms. - Lease terms and rules: Reviewing the lease or house rules to challenge any unfair provisions. As a group we can request changes to policies that are overly strict or inconsistently enforced. For instance, if there’s a rule that doesn’t make sense or a fee that seems unfair, a united tenant voice can get it reconsidered. - Quality of life improvements: Proposing positive changes like better security lighting, playground or common-area upkeep, pest control schedules, or community amenities. Landlords are more likely to invest in improvements when the tenants are organized and clearly advocating for them. - Accountability and transparency: The association can serve as a watchdog. We keep an eye on how management conducts itself – for example, making sure security deposits are returned fairly, or that utility bills (if we pay separately) are accurate. We can share information among tenants so no one gets taken advantage of in a way others aren’t aware of.
-In summary, any widespread issue that multiple neighbors are facing is best addressed by us speaking up together. Even individual issues (like one apartment’s persistent leak) can become a group issue if the landlord ignores it – because if it happens to one of us, it could happen to others. By uniting, we ensure no tenant’s problem is swept under the rug. Instead, we bring it to light and demand solutions as a community. This collective approach often gets results where individual complaints have failed.</details>
-<details><summary>Does organizing as tenants actually work? Have other tenant associations succeeded?</summary> Yes! Tenant organizing works – time and time again, renters who unite have won better conditions, fairer rents, and more respectful treatment. There are many examples of tenant associations and unions making a real difference: - Kansas City (KC Tenants): In 2024-2025, residents of a high-rise called Independence Towers formed a tenant union with the help of KC Tenants. They endured an 8-month rent strike as a last resort, and they won a groundbreaking legally binding agreement from the new owner to improve conditions[12][13]. The contract stabilized their rents, set deadlines for major repairs, and even wiped out over $289,000 in back-due rent that the tenants had withheld during the strike[13]. Going in, many thought the landlord would never concede, but their collective action forced a huge victory – including commitments to fix the HVAC system, address plumbing issues, and institute regular pest control[14]. This is one of the largest tenant union wins in the region, and it showed that even in a tough situation, united tenants can change the balance of power[15]. - Kansas City policy wins: Beyond individual buildings, KC Tenants (a citywide tenant union) successfully pushed the Kansas City council to enact a Tenants’ Bill of Rights and establish Right to Counsel for tenants facing eviction[16]. They even knocked on thousands of doors to help win a $50 million investment in truly affordable housing in the city[17]. Those are big, structural changes – achieved because renters spoke up together. - New Haven, Connecticut: Tenants in New Haven organized when a landlord tried to impose steep rent hikes while neglecting repairs. They formed an officially recognized tenants’ union and worked with the city’s Fair Rent Commission[4][5]. As a result, they have been able to challenge the rent increases and pressure the landlord to fix maintenance issues. Even the mayor there acknowledged that tenants advocating as a group has much more impact than alone[11]. The ordinance they passed in New Haven now protects tenant unions and encourages this kind of collective action[18]. - Brattleboro, Vermont: A group of tenants successfully fought to cap security deposit prices in their area[19]. Landlords were charging up to two months’ rent as security deposits, which was a big burden. After the tenants organized and raised the issue, the policy was changed so that security deposits became more reasonable. This was a concrete win that put money back in renters’ pockets. - Other successes: All across the country, from Minnesota to Illinois to California, tenant unions have won battles both big and small[20]. In some cases they’ve stopped unfair evictions, in others they’ve forced slumlords to make critical repairs. Tenant groups in various cities have negotiated rent freezes, gotten better maintenance services, and even taken ownership of buildings in a few instances. Each situation is different, but the common thread is that when tenants organize, they gain leverage. As one tenant organizer said, these efforts “can really set a model for how tenants change the balance of power”, especially in places with otherwise weak renter protections[15].
-It’s important to remember that not every fight has to be as dramatic as an 8-month strike to get results. Sometimes the mere formation of a tenant association causes a landlord to resolve issues to avoid a conflict. The wins might look like new laundry machines installed, a leaky roof finally replaced, pest extermination for all units, or simply no longer being ignored by management. Even here in Kansas, we’ve seen that landlords start paying attention when tenants unite[21][7]. So yes – organizing works, and we have plenty of real-world proof that coming together as renters can improve our homes and lives.</details>
-<details><summary>What is expected of me if I join? Will this require a lot of time or effort?</summary> Participation is voluntary and flexible. There is no heavy obligation on any member beyond what you are comfortable contributing. At the most basic level, joining the association means you’re counted as part of the group and will stay informed. You’ll likely be invited to occasional meetings or asked for input on issues that affect everyone. We know people have jobs, families, and other responsibilities, so we plan to keep meetings infrequent and convenient (perhaps once a month or when there’s an urgent issue). If you can’t attend a meeting, you can read the notes or updates later. Even simply responding to a survey or signing a group letter might be ways you participate.
-When you sign up, we’ll ask for some basic contact information so we can reach you with updates – and that’s essentially it[22]. There are no mandatory duties. Of course, a union (or association) is about uniting, so we encourage everyone to stand together when needed. For example, if a neighbor is facing an unfair situation, we might ask members if they’re willing to sign a petition or show up to support that person. In the same way your fellow tenants might help you someday, you might be called on to help your neighbors – but it’s always your choice how much you do[23].
-Think of it this way: if enough of us participate, no single person has to do a lot. Many hands make light work. You can choose your level of involvement: - If you just want to stay in the loop, that’s fine – you’ll receive emails or flyers about what’s going on, and you’ll still benefit from whatever the group accomplishes[23]. - If you’re willing to attend gatherings (in-person or online) now and then, that helps, because we get more ideas and voices. - If you have a bit more time or passion, you might volunteer for a specific task – for instance, helping to distribute a newsletter, collecting neighbor feedback on an issue, or serving on a small committee to talk to management. These kinds of contributions are very welcome but not required[24]. - You will never be forced into doing things like protests or confrontations that you don’t want to do. Any collective action (like deciding to deliver a letter as a group, or, in extreme cases, withholding rent) would be discussed and agreed upon by the group. Nothing is done unilaterally or by surprise – it’s all democratic.
-So, in summary, joining the association won’t consume a lot of your time. Even a few hours per month can make a huge difference when we all pitch in. And if you’re super busy, just being listed as a member and lending your name to show our numbers is still a big help. You can participate as much or as little as you’re able – no contribution is too small. We’re grateful to have your support in any capacity.</details>
-<details><summary>Can I join or support the association anonymously? I’m afraid of being “on a list.”</summary> We understand some tenants may feel nervous about being identified, especially at the beginning. The tenant association will respect your privacy. When you join, your name and contact info go on our internal roster, but we do not share that list with the landlord or anyone else. The landlord will eventually know an association exists, but they don’t have the right to demand a membership list. You have a right to organize privately.
-In the early stages, if you prefer to keep a low profile, that’s okay. You can quietly be part of the planning, or just stay informed. If the association, say, writes a group letter to management or starts a petition about an issue, you can choose whether or not to sign your individual name. No one will force you to be a public spokesperson. We will likely have a few tenant leaders or a committee who will be the ones directly communicating with management on behalf of the group. If you’re not comfortable doing that, you don’t have to – others can step up.
-That said, our power comes from standing together, so over time we do encourage everyone to feel confident in our unity. If 50+% of us are members, the landlord can’t target everyone. There’s strength and safety in numbers. Often, once people see that most of their neighbors have joined and nothing bad is happening to those people (because it’s illegal to retaliate and we wouldn’t allow it), they feel safer being openly involved.
-We will also establish ground rules within the group to protect privacy. For example, we might ask that members not publicly reveal someone else’s membership without permission. If we have group meetings, they might be held off-site or privately so management isn’t hovering or watching who attends. Confidentiality will be taken seriously.
-In summary: Yes, you can initially participate in a low-key or anonymous way to whatever extent possible. No one will publish your name or put a big target on you. Over time, as our association gains recognition and success, we hope you’ll feel secure enough that anonymity won’t be needed. But that comfort level is something we’re willing to let you reach at your own pace. The important thing is that you’re with us – whether loudly or quietly – and that together we’ll create an environment where none of us has to fear speaking up.</details>
-<details><summary>Does it cost anything to join? Are there membership dues?</summary> No, there is no cost to join. Our tenant association is free. We do not charge dues or fees to be a member, and there’s no money required to participate. We believe that everyone should be able to stand up for their housing rights regardless of income, so we are committed to keeping this accessible[25]. Flint Hills Tenants United is a volunteer, grassroots effort – they’re not in this to make money from us; they’re here to help.
-In the future, the association might choose to do voluntary fundraising for specific purposes (for example, printing flyers, hosting a tenant barbecue, or perhaps contributing to a legal fund if we ever needed legal action). But those would be optional contributions, and typically we can find support from non-profit resources for many expenses. No one will ever be turned away or lose membership for not paying anything – because, again, there are no required dues.
-Some tenant unions elsewhere eventually set a small dues system (like a few dollars a month) once they’re well-established, but that is usually only if they are providing extensive services or have staff. Our situation right now is simply organizing our community, which doesn’t require a bank account – it requires people power. So don’t worry about money; your voice and participation are what we need, not your dollars. And if down the road we have any opportunities to chip in (completely voluntarily), that would be discussed and decided democratically by the members.
-Bottom line: Joining won’t cost you anything, and it could save you money in the long run if we succeed in stopping unfair fees or rent practices!</details>
-<details><summary>Is this tenant association a political group or connected to a party? I’m not looking for something too radical.</summary> No, this isn’t about partisan politics – it’s about basic fairness and living conditions. Tenant associations include people of all political persuasions who share a common interest: we all need a safe, decent, and affordable place to live. There’s nothing “radical” about wanting your heat to work in the winter, or wanting to get your security deposit back, or not having your rent hiked unfairly. Those are pretty universal concerns. Our association’s focus will strictly be on housing issues at Geary Estates – things like maintenance, lease terms, and landlord accountability – not national political debates.
-Flint Hills Tenants United, the group helping us, is a grassroots organization of local renters. They are not affiliated with any political party. Their mission is to foster solidarity among tenants and promote fair housing practices, “striving for a community where everyone has access to safe, affordable, and equitable living conditions.”[26] There’s nothing extreme in that – it just means they believe in treating tenants fairly and making sure landlords follow the rules. They support tenant associations as a way to achieve those fair conditions[27].
-Sometimes the word “union” can sound political or confrontational, but a tenant union or association is really just a collective self-help group. Think of it this way: Landlords often have associations (like an Apartment Owners Association) to advance their interests; tenants deserve the same kind of organized voice. It doesn’t mean we all have the same ideology about everything – it means on the issues of housing and how we’re treated as tenants, we stand together.
-We will always operate within the law and use peaceful, democratic methods (letters, meetings, petitions, possibly legal action if needed) to achieve our goals. This is about improving our homes and community, which is something anyone – whether conservative, moderate, or liberal – can get behind. So you don’t need to identify with any political movement to join us. You just need to care about your home and neighbors. We welcome everyone, and we make decisions collectively based on the practical needs of tenants, not any outside agenda.
-In sum: This is a tenant initiative, not a political rally. It’s as “radical” as asking for the toilet to flush and the roof not to leak. We keep the focus on common-sense issues that affect our daily lives. Everyone is welcome, and no one will be forced into any kind of partisan activism. The only “side” we’re on is the side of the tenants.</details>
-<details><summary>Who is Flint Hills Tenants United? How are they involved with Geary Estates?</summary> Flint Hills Tenants United (FHTU) is a local grassroots organization made up of renters from around the Flint Hills region of Kansas (which includes our area). Their mission is to foster solidarity among tenants and promote fair housing practices so that everyone can have safe, affordable, and decent living conditions[26]. They aren’t a government agency or a business – they’re essentially neighbors from nearby communities who have come together to help each other and other tenants.
-One of the main ways FHTU carries out its mission is by supporting the establishment of tenant associations[27]. They provide education on tenant rights, resources like sample letters and legal information, and organizing know-how. Think of FHTU as a mentor or facilitator: they’re here to help us (the tenants of Geary Estates) get organized, inform us of our rights under Kansas law, and offer guidance based on their experience with similar situations.
-For Geary Estates specifically, FHTU is helping to kick-start our tenant association. They might have representatives or volunteers helping with outreach (for instance, knocking on doors to talk to tenants, hosting meetings, or providing flyers). They also have connections to useful resources – for example, they’ve worked with Kansas Legal Services to develop form letters for tenants, and they can help us navigate local tenant laws. However, FHTU is not “in charge” of our association – we, the tenants, run the association and make the decisions. FHTU is there to advise and support. They won’t dictate our agenda; they’ll help empower us to lead our own fight for better conditions.
-It’s also worth noting that FHTU is part of a broader movement of tenant organizations. Across the country, renters are organizing in similar ways – there’s even a new national Tenant Union Federation that unites local tenant unions to push for stronger tenant protections nationwide[28]. FHTU is connected with these kinds of efforts, which means we’re not alone. We can draw on the experience of other tenant groups and even gain solidarity from outside our area if needed. (For instance, FHTU can share success stories or tactics from places like KC Tenants or others, and they can plug us into a larger network of renters helping renters.)
-In summary, Flint Hills Tenants United is our ally. They bring expertise, strength, and a sense that what we’re doing here at Geary Estates is part of something bigger. Their involvement means we have knowledgeable people backing us up – whether it’s with understanding the law, handling media if our situation draws attention, or simply giving us moral support and encouragement. They exist to make sure tenants in the Flint Hills (like us) don’t have to fight alone and can successfully stand up for our rights and dignity in our homes.</details>
- 
-[1] TENANTS HANDBOOK
-https://www.leavenworthks.gov/sites/default/files/fileattachments/planning_amp_community_development/page/10237/kansas_tenants_handbook.pdf
-[2] [16] [17] Citywide Tenant Union | Kansas City Tenants
-https://kctenants.org/member/
-[3] GEARY ESTATES APARTMENTS - Updated October 2025 - Yelp
-https://www.yelp.com/biz/geary-estates-apartments-junction-city
-[4] [5] [11] [18] Chapel Street complex residents form city's 2nd tenants union
-https://www.nhregister.com/news/article/chapel-street-complex-residents-form-city-s-2nd-18172767.php
-[6] [7] [21] [26] [27]  Flint Hills Tenants United 
-https://www.flinthillstenantsunited.org/
-[8] [9] [10] Statute | Kansas State Legislature
-https://www.kslegislature.gov/li_2020/b2019_20/statute/058_000_0000_chapter/058_025_0000_article/058_025_0072_section/058_025_0072_k/
-[12] [13] [14] [15] Kansas City tenants win contract, ending eight month rent strike
-https://pestakeholder.org/news/kansas-city-tenants-win-contract-ending-eight-month-rent-strike/
-[19] [20] FAQs - Upper Valley Tenants Union
-https://www.uppervalleytenants.org/faqs
-[22] [23] [24] [25] FAQ — Ithaca Tenants Union
-https://www.ithacatu.org/faq
-[28] Tenant Union Federation |Tenant Union Federation
-https://tenantfederation.org/
+# Geary Estates Tenant Association — Frequently Asked Questions
 
+---
 
+<details>
+<summary><strong>What is a tenant association?</strong></summary>
+
+A tenant association is simply a group of renters in the same property who band together to address common concerns and advocate for better living conditions [(source)](https://tenantresourcecenter.org/what_is_a_tenant_association).  
+In other words, it’s neighbors uniting so we have **strength in numbers** to achieve things we couldn’t achieve alone.  
+By forming an association, tenants can share information, support each other, and present a **unified voice** when dealing with the landlord or management.  
+This might involve collectively requesting timely repairs, ensuring fair lease policies, or addressing safety and maintenance issues together rather than alone.  
+The goal is to **work together for fair, safe, and livable homes** for everyone in the complex.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Why do we need a tenant association at Geary Estates?</strong></summary>
+
+Residents at Geary Estates have faced recurring problems that haven’t been resolved through individual complaints.  
+Many have reported **ignored maintenance requests and poor upkeep** – Google reviews mention that management *“ignore & delete maintenance requests”* and that the apartments “get worse due to lack of upkeep.”  
+
+When tenants go one-by-one, it’s easy for management to delay or dismiss our concerns. But if we **join together**, we can **hold the landlord accountable** and demand that these issues be fixed.  
+
+For example, tenants in other complexes have organized when landlords raised rents while letting repairs slide — and once united, the landlords finally acted.  
+At Flint Hills Tenants United, we’ve seen that **issues ignored individually are often resolved collectively** once tenants organize.  
+
+Forming an association gives us collective power to demand **safe, well-maintained homes and fair treatment** for everyone here.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Is it legal to form a tenant association?</strong></summary>
+
+Yes. **It is your right to organize** with your fellow tenants.  
+Kansas law explicitly protects tenants who form or join an association.  
+Under the [Kansas Residential Landlord and Tenant Act](https://kslegislature.org/li_2014/b2013_14/statute/058_000_0000_chapter/058_025_0000_article/058_025_0072_section/058_025_0072_k/), landlords **cannot retaliate** against you for joining or organizing with other tenants.  
+
+That means they can’t raise your rent, cut off services, or try to evict you simply because you joined an association.  
+Forming a tenants’ group is **fully legal and protected**, and no lease clause can forbid you from meeting or organizing.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Will the landlord retaliate if I join?</strong></summary>
+
+It’s natural to worry about retaliation, but **the law protects you**.  
+Kansas law forbids landlords from retaliating when tenants organize or complain in good faith ([K.S.A. 58-2572](https://ksrevisor.org/statutes/chapters/ch58/058_025_0072.html)).  
+
+They can’t legally evict you, raise rent, or reduce services for being part of an association.  
+If they tried, you’d have a legal defense, and any such action could be challenged in court.  
+
+That said, some landlords might still try indirect tactics — that’s why we build **strength in numbers**.  
+When half or more of tenants unite, it becomes almost impossible for management to target individuals without exposing themselves to risk.  
+We watch out for each other and act quickly if someone is treated unfairly.  
+
+**Retaliation is illegal**, and together we can make sure it stays that way.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Why aim for over 50% of tenants to join?</strong></summary>
+
+When **a majority of tenants unite**, we have real power.  
+Over 50% membership shows the landlord that most residents demand change, not just a few voices.  
+
+It also creates **collective safety** — if everyone participates, management can’t single out individuals.  
+Public officials and tenant organizers often note that group advocacy is *far* more effective than going alone.  
+
+Our goal is to reach a majority so that **our demands carry undeniable weight** and everyone is protected under a shared voice.
+
+</details>
+
+---
+
+<details>
+<summary><strong>What issues can a tenant association address?</strong></summary>
+
+**Anything that affects our quality of life.**  
+That includes:  
+
+- Maintenance and repair delays  
+- Unsafe or unsanitary conditions  
+- Poor communication from management  
+- Unfair rent hikes or fees  
+- Lease policies or rules that don’t make sense  
+- Lack of transparency around deposits or inspections  
+
+Essentially, if it affects one tenant, it probably affects others.  
+A collective approach ensures that **no one’s problem gets ignored** and management can’t divide and isolate tenants.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Does organizing actually work?</strong></summary>
+
+Yes — across the country, tenant unions have won major victories:  
+
+- **KC Tenants (Kansas City, MO):** In 2024, residents of Independence Towers won a **legally binding agreement** after organizing and striking.  
+  The deal forced the landlord to fix HVAC systems, stop rent increases, and forgive **$289,000 in back rent**.  
+  ([Read more](https://www.kansascity.com/news/local/article288983214.html))  
+
+- **KC Tenants citywide:** Helped pass the **Tenant Bill of Rights** and **Right to Counsel** for renters facing eviction in Kansas City.  
+
+- **New Haven, CT:** Tenants formed a union that successfully **stopped unfair rent increases** and pushed their city to pass a [tenant union protection law](https://www.newhavenindependent.org/article/tenants_union_ordinance_passed).  
+
+- **Brattleboro, VT:** Organized tenants won a **cap on security deposits**, saving renters hundreds of dollars.  
+
+These examples prove that **organizing works** — whether you’re fighting for repairs, fairness, or respect.
+
+</details>
+
+---
+
+<details>
+<summary><strong>How much time will this take?</strong></summary>
+
+Participation is flexible.  
+At minimum, joining means staying informed — that alone helps.  
+
+We may hold short monthly meetings or share updates online or by flyer.  
+You can choose how much to be involved:  
+
+- Read updates and sign petitions  
+- Attend meetings if you can  
+- Volunteer for small tasks if you want  
+
+There are **no required duties or fees**, and no one will pressure you to do more than you’re able.  
+Every small act — even signing your name — strengthens the group.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Can I participate anonymously?</strong></summary>
+
+Yes. We understand the fear of being “on a list.”  
+
+Membership lists are **private** and not shared with management.  
+You can choose to stay low-profile, receive updates quietly, or not attach your name to public letters.  
+
+We’ll have a few visible tenant leaders, but most members can stay anonymous until they feel safe.  
+Once a majority joins, anonymity becomes less necessary — **safety grows with solidarity**.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Does it cost anything?</strong></summary>
+
+No. Joining is **completely free**.  
+
+Flint Hills Tenants United is volunteer-run and doesn’t charge dues.  
+If we ever need small funds (like printing flyers), we’ll discuss it democratically and keep it voluntary.  
+Your **time and voice** matter far more than money.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Is this political or radical?</strong></summary>
+
+No. This isn’t about party politics or ideology.  
+
+Tenant associations include people of every background who want the same basic thing —  
+**a safe, fair, and livable home.**  
+
+Flint Hills Tenants United is nonpartisan and focuses only on housing justice.  
+We use peaceful, democratic methods like petitions, meetings, and negotiation — not protests or party activism.  
+
+It’s not “radical” to ask that your rent is fair, your roof doesn’t leak, and management treats tenants with respect.  
+That’s common sense.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Who is Flint Hills Tenants United?</strong></summary>
+
+[**Flint Hills Tenants United (FHTU)**](https://www.flinthillstenantsunited.org/) is a local, grassroots organization of renters across the Flint Hills region of Kansas.  
+Their mission is to **build solidarity among tenants** and ensure **safe, affordable, equitable housing** for all.  
+
+They help residents form tenant associations by providing organizing support and connections to resources like [Kansas Legal Services](https://www.kansaslegalservices.org/).  
+
+FHTU isn’t in charge — **we are**. They’re here to support and advise while we lead our own association.  
+They’re also connected to the broader [Tenant Union Federation](https://tenantunionfederation.org/), a national network that helps renters defend their rights.
+
+</details>
+
+---
 
 
 <br>
