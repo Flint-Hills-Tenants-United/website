@@ -20,9 +20,7 @@ background: grey
 <details>
   <summary><strong>What is a tenant association?</strong></summary>
   <p>
-    A tenant association is simply a group of renters in the same property who band together to address common concerns and advocate for better living conditions 
-    (<a href="https://tenantresourcecenter.org/what_is_a_tenant_association" target="_blank">source</a>). 
-    In other words, it’s neighbors uniting so we have <strong>strength in numbers</strong> to achieve things we couldn’t achieve alone. 
+    A tenant association is simply a group of renters in the same property who band together to address common concerns and advocate for better living conditions. In other words, it’s neighbors uniting so we have <strong>strength in numbers</strong> to achieve things we couldn’t achieve alone. 
     By forming an association, tenants can share information, support each other, and present a <strong>unified voice</strong> when dealing with the landlord or management. 
     The goal is to <strong>work together for fair, safe, and livable homes</strong> for everyone in the complex.
   </p>
@@ -34,7 +32,7 @@ background: grey
   <summary><strong>Why do we need a tenant association at Geary Estates?</strong></summary>
   <p>
     Residents at Geary Estates have faced recurring problems that haven’t been resolved through individual complaints. 
-    Many have reported <strong>ignored maintenance requests and poor upkeep</strong> — Google reviews mention that management “ignore &amp; delete maintenance requests” and that apartments “get worse due to lack of upkeep.” 
+    Many have reported <strong>ignored maintenance requests and poor upkeep</strong> — our canvassing of tenants found that they frequently “ignore &amp; delete maintenance requests” and that apartments “get worse due to lack of upkeep.” 
   </p>
   <p>
     When tenants go one-by-one, it’s easy for management to delay or dismiss concerns. But if we <strong>join together</strong>, we can <strong>hold the landlord accountable</strong> and demand that these issues be fixed. 
