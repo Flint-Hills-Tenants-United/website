@@ -1,0 +1,119 @@
+---
+import {
+  Launcher,
+  LauncherPreferences,
+  LauncherSwitch,
+  LauncherNav,
+  LauncherLink,
+} from 'accessible-astro-launcher'
+import { Icon } from 'astro-icon/components'
+
+
+import themeConfig from '@theme-config'
+
+const launcherPreferenceItems = [
+  {
+    label: 'Dark mode',
+    onAction: 'toggle-dark-mode',
+  },
+  {
+    label: 'High contrast',
+    onAction: 'toggle-high-contrast',
+  },
+  {
+    label: 'Reduced motion',
+    onAction: 'toggle-reduced-motion',
+  },
+]
+
+const launcherBlogItems: Array<{ label: string; href: string }> = []
+
+const launcherProjectItems: Array<{ label: string; href: string; keywords?: string[] }> = []
+
+const launcherNavigationItems = themeConfig.navigation.items.flatMap((item) => {
+  if (item.type === 'dropdown') {
+    return item.items.map((subItem) => ({
+      label: subItem.label,
+      href: subItem.href,
+      external: subItem.external ?? false,
+    }))
+  }
+
+  if (!item.type || item.type === 'link') {
+    return [
+      {
+        label: item.label,
+        href: item.href,
+        external: item.external ?? false,
+      },
+    ]
+  }
+
+  return []
+})
+
+const launcherSocialItems = (themeConfig.socials ?? []).map((item) => ({
+  label: item.label,
+  href: item.href,
+  icon: item.icon,
+  external: item.external ?? false,
+}))
+---
+
+<Launcher id="site-launcher">
+  <LauncherPreferences label="Preferences">
+    {
+      launcherPreferenceItems.map((item) => (
+        <LauncherSwitch label={item.label} onAction={item.onAction} />
+      ))
+    }
+  </LauncherPreferences>
+  <LauncherNav label="Navigate to">
+    {
+      launcherNavigationItems.map((item) => (
+        <LauncherLink
+          label={item.label}
+          href={item.href}
+          {...(item.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+        />
+      ))
+    }
+  </LauncherNav>
+  {
+    launcherBlogItems.length > 0 && (
+      <LauncherNav label="Blog posts">
+        {launcherBlogItems.map((item) => (
+          <LauncherLink label={item.label} href={item.href}>
+            <Icon slot="icon" aria-hidden="true" name="lucide:scroll-text" size="16" />
+          </LauncherLink>
+        ))}
+      </LauncherNav>
+    )
+  }
+  {
+    launcherProjectItems.length > 0 && (
+      <LauncherNav label="Projects">
+        {launcherProjectItems.map((item) => (
+          <LauncherLink label={item.label} href={item.href} keywords={item.keywords}>
+            <Icon slot="icon" aria-hidden="true" name="lucide:bookmark" size="16" />
+          </LauncherLink>
+        ))}
+      </LauncherNav>
+    )
+  }
+  {
+    launcherSocialItems.length > 0 && (
+      <LauncherNav label="Socials">
+        {launcherSocialItems.map((item) => (
+          <LauncherLink
+            label={item.label}
+            href={item.href}
+            {...(item.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+          >
+            <Icon slot="icon" aria-hidden="true" name={item.icon} size="16" />
+          </LauncherLink>
+        ))}
+      </LauncherNav>
+    )
+  }
+</Launcher>
