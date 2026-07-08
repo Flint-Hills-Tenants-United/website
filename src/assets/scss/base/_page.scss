@@ -1,0 +1,367 @@
+@use 'breakpoint' as *;
+
+// ---------------------------------------------------------------------------
+// Shared page system
+// ---------------------------------------------------------------------------
+// Full-height snap sections, buttons, and content blocks used by the homepage
+// and every standalone page (housing-crisis, who-we-are, tenant-rights,
+// connect). Keep page-specific tweaks in the individual .astro files; put
+// anything reusable here so all pages stay visually consistent.
+// ---------------------------------------------------------------------------
+
+// Sections snap to center as you scroll, so only one is visible at a time.
+html {
+  scroll-snap-type: y proximity;
+}
+
+// Each section fills at least a full screen and centers its content, so when
+// one section is on-screen its neighbors are a full viewport away.
+.section,
+.hero,
+.page-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-block-size: 100svh;
+  scroll-snap-align: center;
+  // Stop on each section even during fast/momentum scrolling.
+  scroll-snap-stop: always;
+}
+
+.section,
+.page-hero {
+  padding-block: var(--space-2xl);
+}
+
+// The intro section on a standalone page: a little extra breathing room up top.
+.page-hero {
+  padding-block: var(--space-3xl) var(--space-2xl);
+}
+
+// Opt a section out of snapping (use on the LAST section of every page) so you
+// can scroll past it to reveal the footer instead of being snapped back. It
+// still fills the screen (inherits min-block-size: 100svh) so the section
+// before it can't peek into view.
+.section--flow {
+  scroll-snap-align: none;
+  scroll-snap-stop: normal;
+}
+
+// The intro on a standalone page sits just below the breadcrumb trail. Don't
+// snap it to center, or the breadcrumbs get scrolled out of view on load.
+.page-hero {
+  scroll-snap-align: none;
+  scroll-snap-stop: normal;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.section__head {
+  max-inline-size: 45ch;
+  margin-block-end: var(--space-l);
+}
+
+// Big page title + supporting lead paragraph.
+.page-title {
+  font-size: var(--font-size-6);
+  line-height: 1.05;
+}
+
+.lead {
+  font-size: var(--font-size-2);
+  max-inline-size: 55ch;
+  margin-inline: auto;
+}
+
+// Scroll reveal (fade + bounce up) — hidden state applies only when JS is on.
+.js-reveal [data-reveal] {
+  opacity: 0;
+  translate: 0 40px;
+
+  @media (prefers-reduced-motion: no-preference) {
+    transition:
+      opacity 0.6s ease,
+      translate 0.7s cubic-bezier(0.22, 1.4, 0.36, 1);
+  }
+}
+
+.js-reveal [data-reveal].is-visible {
+  opacity: 1;
+  translate: 0 0;
+}
+
+// Eyebrow label
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3xs);
+  margin-block-end: var(--space-2xs);
+  color: var(--color-neutral-100);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: var(--font-size--1);
+
+  svg {
+    inline-size: 1.1em;
+    block-size: 1.1em;
+  }
+}
+
+// Buttons: solid primary with white text, plus a ghost variant
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2xs);
+  border: 3px solid color-mix(in srgb, var(--brand-secondary) 45%, white);
+  border-radius: var(--radius-s);
+  padding: var(--space-s) var(--space-l);
+  background-color: var(--brand-secondary);
+  color: var(--color-neutral-100);
+  font-weight: 700;
+  font-size: var(--font-size-1);
+  line-height: 1.1;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    translate var(--animation-speed-fast) var(--cubic-bezier),
+    background-color var(--animation-speed-fast) var(--cubic-bezier),
+    box-shadow var(--animation-speed-fast) var(--cubic-bezier);
+
+  &:where(:hover, :focus-visible) {
+    background-color: color-mix(in srgb, var(--brand-secondary) 82%, black);
+    color: var(--color-neutral-100);
+    box-shadow: var(--elevation-3);
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    &:where(:hover, :focus-visible) {
+      translate: 0 -3px;
+    }
+  }
+}
+
+.btn--ghost {
+  background-color: transparent;
+  border-color: var(--color-neutral-100);
+
+  &:where(:hover, :focus-visible) {
+    background-color: var(--brand-secondary);
+    border-color: color-mix(in srgb, var(--brand-secondary) 45%, white);
+  }
+}
+
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-s);
+  margin-block-start: var(--space-m);
+}
+
+.btn-group--center {
+  justify-content: center;
+}
+
+// Feature cards (subtle translucent panels on the brand background)
+.feature-grid {
+  display: grid;
+  gap: var(--space-l);
+  list-style: none;
+  padding: 0;
+  grid-template-columns: 1fr;
+
+  @include breakpoint('m') {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+// A two-up variant for pages that only have two cards.
+.feature-grid--two {
+  @include breakpoint('m') {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.feature-card {
+  padding: var(--space-l);
+  border: 2px solid var(--border-color-subtle);
+  border-radius: var(--radius-l);
+  background-color: color-mix(in srgb, black 10%, transparent);
+  transition:
+    border-color var(--animation-speed-medium) var(--cubic-bezier),
+    transform var(--animation-speed-medium) var(--cubic-bezier);
+
+  &:hover {
+    border-color: var(--color-neutral-100);
+
+    @media (prefers-reduced-motion: no-preference) {
+      transform: translateY(-4px);
+    }
+  }
+}
+
+.feature-card__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: 3.25rem;
+  block-size: 3.25rem;
+  margin-block-end: var(--space-2xs);
+  border: 2px solid color-mix(in srgb, var(--color-neutral-100) 45%, transparent);
+  border-radius: var(--radius-m);
+  background-color: var(--brand-secondary);
+  color: var(--color-neutral-100);
+
+  svg {
+    inline-size: 1.6rem;
+    block-size: 1.6rem;
+  }
+}
+
+// Two-column layout: supporting text beside a checklist / detail list.
+.split-grid {
+  display: grid;
+  gap: var(--space-xl);
+  align-items: center;
+  grid-template-columns: 1fr;
+
+  @include breakpoint('l') {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.rights-list {
+  display: grid;
+  gap: var(--space-xs);
+  list-style: none;
+  padding: 0;
+
+  li {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-2xs);
+    padding: var(--space-s);
+    border: 2px solid var(--border-color-subtle);
+    border-radius: var(--radius-m);
+    background-color: color-mix(in srgb, black 10%, transparent);
+  }
+
+  svg {
+    flex-shrink: 0;
+    inline-size: 1.5rem;
+    block-size: 1.5rem;
+    margin-block-start: 2px;
+    color: var(--color-neutral-100);
+  }
+}
+
+// CTA panel
+.cta-panel {
+  max-inline-size: 60ch;
+  margin-inline: auto;
+  padding: var(--space-2xl) var(--space-l);
+  border: 2px solid var(--border-color-subtle);
+  border-radius: var(--radius-h);
+  background-color: color-mix(in srgb, black 8%, transparent);
+}
+
+.cta__lead {
+  font-size: var(--font-size-1);
+  max-inline-size: 55ch;
+  margin-inline: auto;
+}
+
+// Inline contact email / phone line
+.contact-email {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2xs);
+  font-size: var(--font-size-1);
+  font-weight: 700;
+
+  svg {
+    inline-size: 1.4rem;
+    block-size: 1.4rem;
+    color: var(--color-neutral-100);
+  }
+}
+
+// Breadcrumbs: slim trail pinned to the top of standalone pages, so it stays
+// visible even as full-height sections snap past underneath it.
+.breadcrumbs {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: var(--background-color);
+  padding-block: var(--space-s);
+
+  ol {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-2xs);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: var(--font-size--1);
+  }
+
+  li {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2xs);
+  }
+
+  li + li::before {
+    content: '/';
+    opacity: 0.55;
+  }
+
+  [aria-current='page'] {
+    font-weight: 700;
+  }
+
+  // Lighter than in-text links so the trail stays subtle.
+  a.plain {
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+  }
+}
+
+// Footer navigation row
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-s) var(--space-l);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+// ---------------------------------------------------------------------------
+// In-text link styling: thick primary underline, primary highlight on hover.
+// `.plain` opts a link out (used by breadcrumbs / footer nav for a lighter look).
+// ---------------------------------------------------------------------------
+:where(main, footer) a:not(.btn):not(.wordmark):not(.plain) {
+  color: var(--color-neutral-100);
+  text-decoration: underline;
+  text-decoration-color: var(--brand-secondary);
+  text-decoration-thickness: 4px;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 3px;
+  border-radius: var(--radius-xs);
+  transition:
+    background-color var(--animation-speed-fast) var(--cubic-bezier),
+    color var(--animation-speed-fast) var(--cubic-bezier),
+    box-shadow var(--animation-speed-fast) var(--cubic-bezier);
+}
+
+:where(main, footer) a:not(.btn):not(.wordmark):not(.plain):where(:hover, :focus-visible) {
+  background-color: var(--brand-secondary);
+  color: var(--color-neutral-100);
+  text-decoration-color: transparent;
+  box-shadow: 0 0 0 4px var(--brand-secondary);
+}

@@ -1,0 +1,152 @@
+---
+import PageLayout from '@layouts/PageLayout.astro'
+import { Heading } from 'accessible-astro-components'
+import { Icon } from 'astro-icon/components'
+
+const values = [
+  {
+    icon: 'lucide:users',
+    title: 'Tenant-led',
+    text: 'Decisions are made by renters, not for them. The people closest to the problem set the direction.',
+  },
+  {
+    icon: 'lucide:handshake',
+    title: 'Solidarity, not charity',
+    text: 'We don’t hand out favors. We build mutual support so no neighbor stands alone against a landlord.',
+  },
+  {
+    icon: 'lucide:shield',
+    title: 'Democratic and independent',
+    text: 'We answer to our members — not to landlords, developers, or political patrons.',
+  },
+]
+
+const alternatives = [
+  {
+    icon: 'lucide:building-2',
+    title: 'Social housing',
+    text: 'Permanently affordable, publicly or collectively owned homes that are taken off the speculative market for good.',
+  },
+  {
+    icon: 'lucide:sprout',
+    title: 'Community land trusts',
+    text: 'Land held in common by the community so that homes stay affordable for one generation after the next.',
+  },
+  {
+    icon: 'lucide:key-round',
+    title: 'Tenant cooperatives',
+    text: 'Buildings owned and run by the people who live in them, turning renters into decision-makers.',
+  },
+]
+---
+
+<PageLayout
+  title="Who We Are"
+  description="Flint Hills Tenants United is a tenant-led union organizing for housing justice — and for a future where housing is a right, not a commodity."
+  crumbs={[{ label: 'Home', href: '/' }, { label: 'Who We Are' }]}
+>
+  <!-- Intro -->
+  <section class="page-hero center-text" data-reveal>
+    <div class="container narrow space-content">
+      <p class="eyebrow">
+        <Icon name="lucide:users" aria-hidden="true" />
+        Who we are
+      </p>
+      <Heading level="h1" class="page-title text-balance">Neighbors, not bystanders.</Heading>
+      <p class="lead text-balance">
+        Flint Hills Tenants United is a tenant-led union of renters in Manhattan and across the Flint Hills of Kansas.
+        We organize so that every person has a safe, affordable, and dignified place to call home — and so that the
+        people who live in our homes have real power over them.
+      </p>
+      <div class="btn-group btn-group--center">
+        <a href="/connect" class="btn">Get involved</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Story -->
+  <section class="section" data-reveal>
+    <div class="container narrow space-content center-text">
+      <p class="eyebrow">Our story</p>
+      <Heading level="h2">We started with a conversation</Heading>
+      <p>
+        We began the way most tenant unions do: a handful of neighbors comparing notes and realizing their problems
+        weren’t personal failures but shared conditions. What one renter faces alone, a building can face together —
+        and what a building wins, a whole town can learn from. We’re growing block by block, and there’s a
+        place in this for you.
+      </p>
+    </div>
+  </section>
+
+  <!-- Values -->
+  <section class="section" data-reveal>
+    <div class="container space-content">
+      <div class="section__head">
+        <p class="eyebrow">What we stand for</p>
+        <Heading level="h2">The principles behind the work</Heading>
+      </div>
+      <ul class="feature-grid" role="list">
+        {
+          values.map((item) => (
+            <li class="feature-card space-content-2xs">
+              <span class="feature-card__icon" aria-hidden="true">
+                <Icon name={item.icon} />
+              </span>
+              <Heading level="h3" size="h5">
+                {item.title}
+              </Heading>
+              <p>{item.text}</p>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <!-- Housing justice / alternatives -->
+  <section class="section" data-reveal>
+    <div class="container space-content">
+      <div class="section__head">
+        <p class="eyebrow">Housing justice</p>
+        <Heading level="h2">A different housing future is possible</Heading>
+        <p>
+          Winning better repairs and fairer leases matters — and so does imagining beyond the landlord-tenant
+          relationship itself. Around the world and around the country, communities are proving that housing can be
+          organized for people instead of profit.
+        </p>
+      </div>
+      <ul class="feature-grid" role="list">
+        {
+          alternatives.map((item) => (
+            <li class="feature-card space-content-2xs">
+              <span class="feature-card__icon" aria-hidden="true">
+                <Icon name={item.icon} />
+              </span>
+              <Heading level="h3" size="h5">
+                {item.title}
+              </Heading>
+              <p>{item.text}</p>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--flow" data-reveal>
+    <div class="container">
+      <div class="cta-panel center-text space-content">
+        <Heading level="h2">Build it with us</Heading>
+        <p class="cta__lead">
+          Whether you want to organize your building, learn your rights, or help imagine what comes next, there’s a
+          role for you in this union.
+        </p>
+        <div class="btn-group btn-group--center">
+          <a href="/connect" class="btn">Connect with us</a>
+          <a href="/housing-crisis" class="btn btn--ghost">Understand the crisis</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</PageLayout>

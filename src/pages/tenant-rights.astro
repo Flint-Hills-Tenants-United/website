@@ -1,0 +1,121 @@
+---
+import PageLayout from '@layouts/PageLayout.astro'
+import { Heading } from 'accessible-astro-components'
+import { Icon } from 'astro-icon/components'
+
+const rights = [
+  'The right to a safe, habitable home with working heat, water, and utilities.',
+  'The right to proper written notice before a rent increase or eviction.',
+  'The right to have repairs made, and to withhold rent in limited, lawful circumstances.',
+  'The right to organize with your neighbors free from retaliation.',
+  'The right to the return of your security deposit, with itemized deductions.',
+  'The right to privacy and reasonable notice before a landlord enters.',
+]
+
+const steps = [
+  {
+    icon: 'lucide:file-text',
+    title: 'Write it down',
+    text: 'Put requests in writing and keep copies. Photograph problems and save every text, email, and receipt.',
+  },
+  {
+    icon: 'lucide:users',
+    title: 'Talk to your neighbors',
+    text: 'If it’s happening to you, it’s likely happening to others. A shared problem is a shared source of power.',
+  },
+  {
+    icon: 'lucide:phone',
+    title: 'Reach out to us',
+    text: 'An organizer can help you understand your options and stand with you before you act.',
+  },
+]
+---
+
+<PageLayout
+  title="Tenant Rights"
+  description="Know your rights as a renter in Kansas — and how to act on them with your neighbors."
+  crumbs={[{ label: 'Home', href: '/' }, { label: 'Tenant Rights' }]}
+>
+  <!-- Intro -->
+  <section class="page-hero center-text" data-reveal>
+    <div class="container narrow space-content">
+      <p class="eyebrow">
+        <Icon name="lucide:scale" aria-hidden="true" />
+        Tenant rights
+      </p>
+      <Heading level="h1" class="page-title text-balance">You have more power than you think.</Heading>
+      <p class="lead text-balance">
+        Kansas renters are protected by law — but those protections only matter when tenants know them and act on
+        them together. Here’s where to start.
+      </p>
+    </div>
+  </section>
+
+  <!-- Rights list -->
+  <section class="section" data-reveal>
+    <div class="container split-grid">
+      <div class="space-content">
+        <p class="eyebrow">Know your rights</p>
+        <Heading level="h2">Rights every tenant should keep close</Heading>
+        <p>
+          This is a starting point, not legal advice. Local ordinances and your lease can add protections — when in
+          doubt, talk to a housing attorney.
+        </p>
+        <Heading level="h3"><strong>Kansas Legal Services</strong></Heading>
+        <p class="eyebrow">409 Poyntz Ave Ste 201, Manhattan, KS 66502</p><br>
+        <p class="eyebrow">(785) 537-2943</p>
+      </div>
+      <ul class="rights-list" role="list">
+        {
+          rights.map((right) => (
+            <li>
+              <Icon name="lucide:check" aria-hidden="true" />
+              <span>{right}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <!-- What to do -->
+  <section class="section" data-reveal>
+    <div class="container space-content">
+      <div class="section__head">
+        <p class="eyebrow">If a right is violated</p>
+        <Heading level="h2">Three steps that protect you</Heading>
+      </div>
+      <ul class="feature-grid" role="list">
+        {
+          steps.map((step) => (
+            <li class="feature-card space-content-2xs">
+              <span class="feature-card__icon" aria-hidden="true">
+                <Icon name={step.icon} />
+              </span>
+              <Heading level="h3" size="h5">
+                {step.title}
+              </Heading>
+              <p>{step.text}</p>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--flow" data-reveal>
+    <div class="container">
+      <div class="cta-panel center-text space-content">
+        <Heading level="h2">Don’t face your landlord alone</Heading>
+        <p class="cta__lead">
+          The single most powerful thing you can do is organize with the people in your building. We can help you start.
+        </p>
+        <div class="btn-group btn-group--center">
+          <a href="/connect" class="btn">Connect with us</a>
+          <a href="/tenant-resources" class="btn btn--ghost">Kansas Tenant Resources</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</PageLayout>

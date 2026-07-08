@@ -5,7 +5,16 @@ const currentYear = new Date().getFullYear()
 ---
 
 <footer>
-  <section class="py-8">
+  <section class="py-8 space-content">
+    <nav class="container" aria-label="Footer">
+      <ul class="footer-nav">
+        <li><Link href="/" class="plain">Home</Link></li>
+        <li><Link href="/housing-crisis" class="plain">Housing Crisis</Link></li>
+        <li><Link href="/who-we-are" class="plain">Who We Are</Link></li>
+        <li><Link href="/tenant-rights" class="plain">Tenant Rights</Link></li>
+        <li><Link href="/connect" class="plain">Connect With Us</Link></li>
+      </ul>
+    </nav>
     <div class="container flex flex-col gap-4 md:flex-row md:justify-between">
       <p>
         &copy; {currentYear} Flint Hills Tenants United. Solidarity, not charity.

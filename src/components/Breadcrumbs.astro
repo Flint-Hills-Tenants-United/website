@@ -1,0 +1,41 @@
+---
+/**
+ * Accessible breadcrumb trail. Pass an ordered list of crumbs; the last one is
+ * treated as the current page (rendered as plain text, not a link).
+ *
+ * <Breadcrumbs crumbs={[{ label: 'Home', href: '/' }, { label: 'Who We Are' }]} />
+ */
+interface Crumb {
+  label: string
+  href?: string
+}
+
+interface Props {
+  crumbs: Crumb[]
+}
+
+const { crumbs } = Astro.props
+---
+
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <div class="container">
+    <ol>
+      {
+        crumbs.map((crumb, index) => {
+          const isLast = index === crumbs.length - 1
+          return (
+            <li>
+              {crumb.href && !isLast ? (
+                <a href={crumb.href} class="plain">
+                  {crumb.label}
+                </a>
+              ) : (
+                <span aria-current={isLast ? 'page' : undefined}>{crumb.label}</span>
+              )}
+            </li>
+          )
+        })
+      }
+    </ol>
+  </div>
+</nav>

@@ -50,8 +50,7 @@ const rights = [
             housing. When renters stand together, we win.
           </p>
           <div class="btn-group btn-group--center">
-            <a href="#get-involved" class="btn">Get involved</a>
-            <a href="#know-your-rights" class="btn btn--ghost">Know your rights</a>
+            <a href="#know-your-rights" class="btn">Know Your Rights</a>
           </div>
         </div>
         {
@@ -72,6 +71,33 @@ const rights = [
     </div>
   </section>
 
+    <!-- Know your rights -->
+  <section id="know-your-rights" class="section" data-reveal>
+    <div class="container split-grid">
+      <div class="space-content">
+        <p class="eyebrow">Know your rights</p>
+        <Heading level="h2">You have more power than you think</Heading>
+        <p>
+          Kansas renters are protected by law but those protections only matter when tenants know them and act on
+          them. Here are some of the rights every tenant should keep close.
+        </p>
+        <div class="btn-group">
+          <a href="/tenant-rights" class="btn">Learn More</a>
+        </div>
+      </div>
+      <ul class="rights-list" role="list">
+        {
+          rights.map((right) => (
+            <li>
+              <Icon name="lucide:check" aria-hidden="true" />
+              <span>{right}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
   <!-- Mission -->
   <section class="section" data-reveal>
     <div class="container narrow center-text">
@@ -80,8 +106,8 @@ const rights = [
         the collective power to make that real not through favors, but through organized tenants.
       </p>
       <div class="btn-group btn-group--center">
-          <a href="#get-involved" class="btn">Learn more</a>
-        </div>
+        <a href="/who-we-are" class="btn btn--ghost">Who We Are</a>
+      </div>
     </div>
   </section>
 
@@ -110,32 +136,7 @@ const rights = [
     </div>
   </section>
 
-  <!-- Know your rights -->
-  <section id="know-your-rights" class="section" data-reveal>
-    <div class="container rights-grid">
-      <div class="space-content">
-        <p class="eyebrow">Know your rights</p>
-        <Heading level="h2">You have more power than you think</Heading>
-        <p>
-          Kansas renters are protected by law but those protections only matter when tenants know them and act on
-          them. Here are some of the rights every tenant should keep close.
-        </p>
-        <div class="btn-group">
-          <a href="#get-involved" class="btn">Learnmore</a>
-        </div>
-      </div>
-      <ul class="rights-list" role="list">
-        {
-          rights.map((right) => (
-            <li>
-              <Icon name="lucide:check" aria-hidden="true" />
-              <span>{right}</span>
-            </li>
-          ))
-        }
-      </ul>
-    </div>
-  </section>
+
 
   <!-- Call to action -->
   <section id="get-involved" class="section" data-reveal>
@@ -147,15 +148,15 @@ const rights = [
           place for you here. It starts with a conversation.
         </p>
         <div class="btn-group btn-group--center">
-          <a href="#contact" class="btn">Join the union</a>
-          <a href="#contact" class="btn btn--ghost">Volunteer</a>
+          <a href="/connect" class="btn">Join the union</a>
+          <a href="/connect" class="btn btn--ghost">Volunteer</a>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="section" data-reveal>
+  <section id="contact" class="section section--flow" data-reveal>
     <div class="container narrow center-text space-content">
       <p class="eyebrow">Contact</p>
       <Heading level="h2">Get in touch</Heading>
@@ -202,108 +203,8 @@ const rights = [
 <style lang="scss">
   @use 'scss/base/breakpoint' as *;
 
-  .section {
-    padding-block: var(--space-2xl);
-  }
-
-  .center-text {
-    text-align: center;
-  }
-
-  .section__head {
-    max-inline-size: 45ch;
-    margin-block-end: var(--space-l);
-  }
-
-  // Scroll reveal (bounce up) — hidden state applies only when JS is present
-  :global(.js-reveal) [data-reveal] {
-    opacity: 0;
-    translate: 0 40px;
-
-    @media (prefers-reduced-motion: no-preference) {
-      transition:
-        opacity 0.6s ease,
-        translate 0.7s cubic-bezier(0.22, 1.4, 0.36, 1);
-    }
-  }
-
-  :global(.js-reveal) [data-reveal].is-visible {
-    opacity: 1;
-    translate: 0 0;
-  }
-
-  // Eyebrow label
-  .eyebrow {
-    display: inline-flex;
-    align-items: center;
-    gap: var(--space-3xs);
-    margin-block-end: var(--space-2xs);
-    color: var(--color-neutral-100);
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    font-size: var(--font-size--1);
-
-    :global(svg) {
-      inline-size: 1.1em;
-      block-size: 1.1em;
-    }
-  }
-
-  // Buttons: solid primary with white text, plus a ghost variant
-  .btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: var(--space-2xs);
-    border: 3px solid color-mix(in srgb, var(--brand-secondary) 45%, white);
-    border-radius: var(--radius-s);
-    padding: var(--space-s) var(--space-l);
-    background-color: var(--brand-secondary);
-    color: var(--color-neutral-100);
-    font-weight: 700;
-    font-size: var(--font-size-1);
-    line-height: 1.1;
-    text-decoration: none;
-    cursor: pointer;
-    transition:
-      translate var(--animation-speed-fast) var(--cubic-bezier),
-      background-color var(--animation-speed-fast) var(--cubic-bezier),
-      box-shadow var(--animation-speed-fast) var(--cubic-bezier);
-
-    &:where(:hover, :focus-visible) {
-      background-color: color-mix(in srgb, var(--brand-secondary) 82%, black);
-      color: var(--color-neutral-100);
-      box-shadow: var(--elevation-3);
-    }
-
-    @media (prefers-reduced-motion: no-preference) {
-      &:where(:hover, :focus-visible) {
-        translate: 0 -3px;
-      }
-    }
-  }
-
-  .btn--ghost {
-    background-color: transparent;
-    border-color: var(--color-neutral-100);
-
-    &:where(:hover, :focus-visible) {
-      background-color: var(--brand-secondary);
-      border-color: color-mix(in srgb, var(--brand-secondary) 45%, white);
-    }
-  }
-
-  .btn-group {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--space-s);
-    margin-block-start: var(--space-m);
-  }
-
-  .btn-group--center {
-    justify-content: center;
-  }
+  // Shared section/button/card styling now lives in scss/base/_page.scss so it
+  // can be reused by the standalone pages. Only home-specific styles remain here.
 
   // Hero
   .hero {
@@ -357,146 +258,5 @@ const rights = [
     font-size: var(--font-size-3);
     line-height: 1.35;
     text-wrap: balance;
-  }
-
-  // Feature cards (subtle translucent panels on the blue background)
-  .feature-grid {
-    display: grid;
-    gap: var(--space-l);
-    list-style: none;
-    padding: 0;
-    grid-template-columns: 1fr;
-
-    @include breakpoint('m') {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-
-  .feature-card {
-    padding: var(--space-l);
-    border: 2px solid var(--border-color-subtle);
-    border-radius: var(--radius-l);
-    background-color: color-mix(in srgb, black 10%, transparent);
-    transition:
-      border-color var(--animation-speed-medium) var(--cubic-bezier),
-      transform var(--animation-speed-medium) var(--cubic-bezier);
-
-    &:hover {
-      border-color: var(--color-neutral-100);
-
-      @media (prefers-reduced-motion: no-preference) {
-        transform: translateY(-4px);
-      }
-    }
-  }
-
-  .feature-card__icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    inline-size: 3.25rem;
-    block-size: 3.25rem;
-    margin-block-end: var(--space-2xs);
-    border: 2px solid color-mix(in srgb, var(--color-neutral-100) 45%, transparent);
-    border-radius: var(--radius-m);
-    background-color: var(--brand-secondary);
-    color: var(--color-neutral-100);
-
-    :global(svg) {
-      inline-size: 1.6rem;
-      block-size: 1.6rem;
-    }
-  }
-
-  // Know your rights
-  .rights-grid {
-    display: grid;
-    gap: var(--space-xl);
-    align-items: center;
-    grid-template-columns: 1fr;
-
-    @include breakpoint('l') {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-
-  .rights-list {
-    display: grid;
-    gap: var(--space-xs);
-    list-style: none;
-    padding: 0;
-
-    li {
-      display: flex;
-      align-items: flex-start;
-      gap: var(--space-2xs);
-      padding: var(--space-s);
-      border: 2px solid var(--border-color-subtle);
-      border-radius: var(--radius-m);
-      background-color: color-mix(in srgb, black 10%, transparent);
-    }
-
-    :global(svg) {
-      flex-shrink: 0;
-      inline-size: 1.5rem;
-      block-size: 1.5rem;
-      margin-block-start: 2px;
-      color: var(--color-neutral-100);
-    }
-  }
-
-  // CTA panel
-  .cta-panel {
-    max-inline-size: 60ch;
-    margin-inline: auto;
-    padding: var(--space-2xl) var(--space-l);
-    border: 2px solid var(--border-color-subtle);
-    border-radius: var(--radius-h);
-    background-color: color-mix(in srgb, black 8%, transparent);
-  }
-
-  .cta__lead {
-    font-size: var(--font-size-1);
-    max-inline-size: 55ch;
-    margin-inline: auto;
-  }
-
-  // Contact
-  .contact-email {
-    display: inline-flex;
-    align-items: center;
-    gap: var(--space-2xs);
-    font-size: var(--font-size-1);
-    font-weight: 700;
-
-    :global(svg) {
-      inline-size: 1.4rem;
-      block-size: 1.4rem;
-      color: var(--color-neutral-100);
-    }
-  }
-</style>
-
-<!-- In-text link styling: thick primary underline, primary highlight on hover -->
-<style lang="scss" is:global>
-  :where(main, footer) a:not(.btn):not(.wordmark) {
-    color: var(--color-neutral-100);
-    text-decoration: underline;
-    text-decoration-color: var(--brand-secondary);
-    text-decoration-thickness: 4px;
-    text-decoration-skip-ink: none;
-    text-underline-offset: 3px;
-    border-radius: var(--radius-xs);
-    transition:
-      background-color var(--animation-speed-fast) var(--cubic-bezier),
-      color var(--animation-speed-fast) var(--cubic-bezier),
-      box-shadow var(--animation-speed-fast) var(--cubic-bezier);
-  }
-
-  :where(main, footer) a:not(.btn):not(.wordmark):where(:hover, :focus-visible) {
-    background-color: var(--brand-secondary);
-    color: var(--color-neutral-100);
-    text-decoration-color: transparent;
-    box-shadow: 0 0 0 4px var(--brand-secondary);
   }
 </style>

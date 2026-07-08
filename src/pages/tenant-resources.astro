@@ -1,0 +1,169 @@
+---
+import PageLayout from '@layouts/PageLayout.astro'
+import { Heading } from 'accessible-astro-components'
+import { Icon } from 'astro-icon/components'
+
+// Icon shown next to each link/contact row, chosen by its `type`.
+const linkIcon = {
+  website: 'lucide:external-link',
+  pdf: 'lucide:file-text',
+  email: 'lucide:mail',
+  phone: 'lucide:phone',
+  address: 'lucide:map-pin',
+}
+
+// Dummy resources — replace these with the real ones. Each card can mix any of
+// the link types above; items without an `href` render as plain text (handy for
+// a mailing address or office hours).
+const resources = [
+  {
+    icon: 'lucide:scale',
+    title: 'Kansas Legal Services',
+    description: 'Free and low-cost legal help for renters facing eviction, unsafe conditions, or deposit disputes.',
+    links: [
+      { type: 'website', label: 'kansaslegalservices.org', href: 'https://www.kansaslegalservices.org/' },
+      { type: 'phone', label: '(800) 723-6953', href: 'tel:+18007236953' },
+      { type: 'pdf', label: 'Tenant rights handbook (PDF)', href: '/resources/tenant-handbook.pdf' },
+    ],
+  },
+  {
+    icon: 'lucide:life-buoy',
+    title: 'Emergency Housing Assistance',
+    description: 'Short-term help with rent, utilities, and shelter when you’re at risk of losing your home.',
+    links: [
+      { type: 'phone', label: 'Dial 2-1-1', href: 'tel:211' },
+      { type: 'website', label: 'united way of the flint hills', href: 'https://example.org/' },
+      { type: 'address', label: '123 Poyntz Ave, Manhattan, KS 66502' },
+    ],
+  },
+  {
+    icon: 'lucide:megaphone',
+    title: 'Organize Your Building',
+    description: 'Facing a problem with your landlord? Reach out and an organizer will help you and your neighbors respond together.',
+    links: [
+      { type: 'email', label: 'info@flinthillstenantsunited.org', href: 'mailto:info@flinthillstenantsunited.org' },
+      { type: 'website', label: 'Start a conversation', href: '/connect' },
+    ],
+  },
+  {
+    icon: 'lucide:book-open',
+    title: 'Know Your Rights (Printable)',
+    description: 'A one-page summary of Kansas renter protections you can print, post, and share with neighbors.',
+    links: [
+      { type: 'pdf', label: 'Know-your-rights flyer (PDF)', href: '/resources/know-your-rights.pdf' },
+      { type: 'website', label: 'Read the full guide', href: '/tenant-rights' },
+    ],
+  },
+]
+---
+
+<PageLayout
+  title="Kansas Tenant Resources"
+  description="A directory of legal help, emergency assistance, and organizing support for renters in Kansas and the Flint Hills."
+  crumbs={[{ label: 'Home', href: '/' }, { label: 'Kansas Tenant Resources' }]}
+>
+  <header class="resources-head">
+    <div class="container narrow space-content">
+      <Heading level="h1" class="page-title text-balance">Kansas Tenant Resources</Heading>
+      <p class="lead text-balance">
+        Legal help, emergency assistance, and organizing support for renters. Reach out to any of these directly.
+      </p>
+    </div>
+  </header>
+
+  <div class="resources">
+    <div class="container">
+      <ul class="feature-grid" role="list">
+        {
+          resources.map((resource) => (
+            <li class="feature-card space-content-2xs">
+              <span class="feature-card__icon" aria-hidden="true">
+                <Icon name={resource.icon} />
+              </span>
+              <Heading level="h2" size="h5">
+                {resource.title}
+              </Heading>
+              <p>{resource.description}</p>
+              <ul class="resource-links" role="list">
+                {resource.links.map((link) =>
+                  link.href ? (
+                    <li>
+                      <a
+                        href={link.href}
+                        class="plain"
+                        {...(link.type === 'website' || link.type === 'pdf'
+                          ? { target: '_blank', rel: 'noopener' }
+                          : {})}
+                      >
+                        <Icon name={linkIcon[link.type]} aria-hidden="true" />
+                        <span>{link.label}</span>
+                      </a>
+                    </li>
+                  ) : (
+                    <li>
+                      <span class="resource-links__static">
+                        <Icon name={linkIcon[link.type]} aria-hidden="true" />
+                        <span>{link.label}</span>
+                      </span>
+                    </li>
+                  ),
+                )}
+              </ul>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+</PageLayout>
+
+<style lang="scss">
+  // A normal scrolling page (no full-height snap sections), just a header and a
+  // grid of resource cards.
+  .resources-head {
+    padding-block: var(--space-2xl) var(--space-l);
+  }
+
+  .resources {
+    padding-block-end: var(--space-3xl);
+  }
+
+  // Stack of links / contact rows inside each card.
+  .resource-links {
+    display: grid;
+    gap: var(--space-3xs);
+    margin: 0;
+    margin-block-start: var(--space-xs);
+    padding: 0;
+    list-style: none;
+  }
+
+  .resource-links a,
+  .resource-links__static {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2xs);
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--color-neutral-100);
+  }
+
+  // `.plain` opts links out of the thick in-text underline; add a subtle one on hover.
+  .resource-links a {
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 3px;
+    transition: text-decoration-color var(--animation-speed-fast) var(--cubic-bezier);
+  }
+
+  .resource-links a:where(:hover, :focus-visible) {
+    text-decoration-color: currentColor;
+  }
+
+  .resource-links :global(svg) {
+    inline-size: 1.1em;
+    block-size: 1.1em;
+    flex-shrink: 0;
+    color: var(--color-neutral-100);
+  }
+</style>

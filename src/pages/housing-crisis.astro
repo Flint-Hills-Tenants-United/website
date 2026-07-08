@@ -1,0 +1,150 @@
+---
+import PageLayout from '@layouts/PageLayout.astro'
+import { Heading } from 'accessible-astro-components'
+import { Icon } from 'astro-icon/components'
+
+// Placeholder figures — replace the values with real local data before launch.
+const byTheNumbers = [
+  {
+    icon: 'lucide:trending-up',
+    stat: 'More than 50%',
+    label: 'of Manhattan renters spend over a third of their income just to keep a roof over their head.',
+  },
+  {
+    icon: 'lucide:history',
+    stat: 'Then vs. now',
+    label: 'In 1985 a family earning about $23,600 could buy a typical $82,800 home. Today that home costs $417,000, and a family would need to earn roughly $139,000 to afford it. Most earn about $83,000.',
+  },
+  {
+    icon: 'lucide:dollar-sign',
+    stat: '$20.87 an hour',
+    label: 'is what a Kansas worker must earn to afford a modest two-bedroom. The state minimum wage is still $7.25.',
+  },
+   {
+    icon: 'lucide:key',
+    stat: 'Take it or leave it',
+    label: 'With rentals nearly full and tenants desperate, many landlords let repairs slide in order to increase their profit. About half of Manhattan\'s homes were built before 1980, and renters often live with disrepair because there is nowhere else to go.',
+  },
+   {
+    icon: 'lucide:circle-slash',
+    stat: 'Nowhere in America',
+    label: 'can a full-time minimum-wage worker afford a modest two-bedroom apartment. Not one state, metro, or county.',
+  },
+   {
+    icon: 'lucide:chart-pie',
+    stat: '~60% of Manhattan households rent',
+    label: 'yet Kansas gives tenants some of the weakest legal protections in the country.',
+  },
+]
+
+const drivers = [
+'Rents are climbing far faster than local paychecks. The Fair Market Rent for a two-bedroom in the Manhattan area jumped 7.3% in a single year, while local incomes have risen only about 8% in the past nine years.',
+  'Kansas gives renters some of the weakest protections in the country. There is no rent control, no just-cause eviction, and only a three-day window to cure missed rent. State law even bans Manhattan from adopting local rent protections of its own.',
+  'A shortage of affordable units lets landlords set the terms. Fewer than half of Manhattan\'s homes are affordable to lower-income households, and rentals sit about 94% full, so tenants have nowhere to go and little leverage.',
+  'When one tenant is pushed out, the next often pays more, and the cycle repeats. Kansas keeps no public record of evictions, so much of this displacement stays invisible.',
+]
+---
+
+<PageLayout
+  title="The Housing Crisis"
+  description="Why housing in Manhattan and the Flint Hills is out of reach for so many renters — and what we can do about it together."
+  crumbs={[{ label: 'Home', href: '/' }, { label: 'The Housing Crisis' }]}
+>
+  <!-- Intro -->
+  <section class="page-hero center-text" data-reveal>
+    <div class="container narrow space-content">
+      
+      <Heading level="h1" class="page-title text-balance">The American housing crisis is not a glitch; it is an inherent feature of capitalism.</Heading>
+      <p class="lead text-balance">
+         Too often, housing is treated as a way to make money instead of a place for people to live. That drives up prices, pushes out longtime residents, and leaves many with nowhere they can afford.
+      </p>
+    </div>
+  </section>
+
+  <!-- By the numbers -->
+  <section class="section" data-reveal>
+    <div class="container space-content">
+      <div class="section__head">
+        <Heading level="h2">The problem, in plain terms</Heading>
+      </div>
+      <ul class="feature-grid" role="list">
+        {
+          byTheNumbers.map((item) => (
+            <li class="feature-card space-content-2xs">
+              <span class="feature-card__icon" aria-hidden="true">
+                <Icon name={item.icon} />
+              </span>
+              <Heading level="h3" size="h4">
+                {item.stat}
+              </Heading>
+              <p>{item.label}</p>
+            </li>
+          ))
+        }
+      </ul>
+
+    </div>
+  </section>
+
+   <!-- How we got here -->
+  <section class="section" data-reveal>
+    <div class="container space-content">
+      <div class="section__head">
+        <Heading level="h2">How we got here</Heading>
+      </div>
+         <p class="lead text-balance">
+         The housing crisis grew out of a widening gap between what people earn and what housing costs. Since 1980, home prices have climbed 551% while household incomes rose just 373%. A typical American home now costs about five times the median household income, up from three and a half times in the mid-1980s. Paychecks have stayed largely flat in real terms even as rent, groceries, healthcare, and childcare have all gotten more expensive, so families have less left over each month for housing.</p>
+<p class="lead text-balance">
+        Other pressures pile on. Roughly 43 million Americans carry a combined $1.78 trillion in student loan debt, which drags down credit and keeps would-be buyers from qualifying for a mortgage. Building a home has gotten far more expensive too, with construction material costs up nearly 40% since 2020, which discourages new construction and keeps supply tight. Fewer affordable homes get built, competition for what exists intensifies, and prices climb further.
+      </p>
+
+    </div>
+  </section>
+
+  <!-- What's driving it -->
+  <section class="section" data-reveal>
+    <div class="container split-grid">
+      <div class="space-content">
+        <Heading level="h2">A crisis with a cause</Heading>
+        <p>
+          None of this is inevitable. High rents and easy evictions are the product of specific choices about how
+          housing gets built, owned, and governed. Naming those choices is the first step to changing them.
+        </p>
+      </div>
+      <ul class="rights-list" role="list">
+        {
+          drivers.map((driver) => (
+            <li>
+              <Icon name="lucide:arrow-right" aria-hidden="true" />
+              <span>{driver}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--flow cta-section" data-reveal>
+    <div class="container">
+      <div class="cta-panel center-text space-content">
+        <Heading level="h2">Alone we're a complaint. Together we're a force.</Heading>
+        <p class="cta__lead">
+          The way out of this crisis is informed and organized tenants who know their rights and have each other's backs. That's
+          exactly what we're building.
+        </p>
+        <div class="btn-group btn-group--center">
+          <a href="/who-we-are" class="btn">Learn More About Us</a>
+          <a href="/connect" class="btn btn--ghost">Connect with Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</PageLayout>
+
+<style>
+  /* Extra breathing room before the closing call to action on this page. */
+  .cta-section {
+    margin-block-start: var(--space-3xl);
+  }
+</style>
