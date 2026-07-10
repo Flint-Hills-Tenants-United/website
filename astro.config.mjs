@@ -36,7 +36,9 @@ const viteConfig = {
 export default defineConfig({
   compressHTML: true,
   site: 'https://www.flinthillstenantsunited.org',
-  integrations: [compress(), icon(), sitemap()],
+  // astro-compress's CSS minifier strips width-based @media queries (breaking
+  // responsive grids); Astro already minifies CSS, so disable its CSS pass.
+  integrations: [compress({ CSS: false }), icon(), sitemap()],
   vite: viteConfig,
 
 })
